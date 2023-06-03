@@ -1,0 +1,28 @@
+git remote -v        //to see origin git path
+git remote remove origin   //removes origin path
+rm -rf .git      // to stop trucking
+git init
+
+
+
+
+git config --global user.name ""
+
+git config --global user.email ""
+
+
+
+echo "# facebook-23" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fitabe13/facebook-23.git
+git push -u origin main
+
+
+
+
+git remote add origin https://github.com/fitabe13/facebook-23.git
+git branch -M main
+git push -u origin main
